@@ -1,0 +1,13 @@
+read epub file 
+seperate by chapters 
+find title and author
+assign voice to narrator
+create audio reading of book with just narrator
+seperate quotes 
+create a character sheet
+analyze a chapter and find characters
+determine if a character is new and not on sheet already
+determine if character is male or female, or neither (animal, entity)
+assign voices to characters
+divide text into script one character at a time
+merge audios to one master per chapter
