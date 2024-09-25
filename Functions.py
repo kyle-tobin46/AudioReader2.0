@@ -1,7 +1,9 @@
 import ebooklib                                                     # type: ignore
 from ebooklib import epub                                           # type: ignore
 from bs4 import BeautifulSoup                                       # type: ignore
-
+import transformers
+from transformers import pipeline
+import re
 
 
 def book(book_input):
@@ -13,3 +15,4 @@ def book(book_input):
             soup = BeautifulSoup(html_doc, 'html.parser')
             text += soup.get_text() + " "
     return text
+
