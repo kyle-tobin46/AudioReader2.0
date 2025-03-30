@@ -18,7 +18,14 @@ This is a work-in-progress Python application that converts ePub novels into AI-
 - Regex / JSON
 
 ## 🚧 Current Status
-This project is still in development. Future goals include:
+This project is still in development. 
+
+Current Status:
+- Converts epub into folder of txt files separated by chapter
+- Identifies dialogue and attributes it accordingly by speaker
+- Outputs the new chaptername_dialogue.txt
+
+Future goals include:
 - Better speaker attribution using character context
 - Integration with more realistic AI voices (e.g. ElevenLabs or TTS APIs)
 - Full audiobook export with chapter support
